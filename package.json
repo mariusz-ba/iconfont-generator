@@ -1,0 +1,15 @@
+{
+  "name": "iconfont-generator",
+  "version": "1.0.0",
+  "description": "Create icon font from svg icons",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "author": "Mariusz Baran <mariusz.baran23@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "webfont": "^9.0.0"
+  }
+}

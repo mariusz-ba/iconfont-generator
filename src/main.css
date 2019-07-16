@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'iconfont';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../dist/fonts/iconfont/iconfont.ttf'),
+    url('../dist/fonts/iconfont/iconfont.eot'),
+    url('../dist/fonts/iconfont/iconfont.woff'),
+    url('../dist/fonts/iconfont/iconfont.woff2');
+}
+
+.icon::before {
+  display: inline-block;
+  font-family: 'iconfont';
+  content: '\EA01';
+}
+
+.two::before {
+  content: '\EA02';
+}
+
+.three::before {
+  content: '\EA03';
+}
