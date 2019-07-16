@@ -1,7 +1,7 @@
 # Iconfont generator
 This app generates iconfont from provided svg icons. In addition it creates `icons.scss` file that contains map with all icons unicodes.
 
-# Installation and usage
+## Installation and usage
 Install needed dependencies
 ```bash
 npm install
